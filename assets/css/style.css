@@ -474,6 +474,55 @@ section {
   .section-title p {
     margin-bottom: 0;
   }
+  /*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+    padding: 15px 0;
+    background: #1bbd36;
+    min-height: 40px;
+    margin-top: 72px;
+  }
+  .breadcrumbs h2 {
+    font-size: 26px;
+    font-weight: 300;
+    color: #fff;
+  }
+  .breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+  }
+  .breadcrumbs ol a {
+    color: #fff;
+  }
+  .breadcrumbs ol li + li {
+    padding-left: 10px;
+  }
+  .breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #fff;
+    content: "/";
+  }
+  @media (max-width: 991px) {
+    .breadcrumbs {
+      margin-top: 58px;
+    }
+    .breadcrumbs .d-flex {
+      display: block !important;
+    }
+    .breadcrumbs ol {
+      display: block;
+    }
+    .breadcrumbs ol li {
+      display: inline-block;
+    }
+  }
+  
   
   
   
