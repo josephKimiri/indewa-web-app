@@ -900,6 +900,166 @@ section {
   .team .member:hover .social {
     opacity: 1;
   }
+  /*--------------------------------------------------------------
+# Our Skills
+--------------------------------------------------------------*/
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  .skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #111;
+  }
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  .skills .progress-bar-wrap {
+    background: #e7e7e7;
+  }
+  .skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #1bbd36;
+  }
+  
+  /*--------------------------------------------------------------
+  # Features
+  --------------------------------------------------------------*/
+  .features .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: ease-in-out 0.3s;
+  }
+  .features .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+  .features .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+  }
+  .features .icon-box h3 a {
+    color: #111;
+    transition: ease-in-out 0.3s;
+  }
+  .features .icon-box h3 a:hover {
+    color: #1bbd36;
+  }
+  
+  /*--------------------------------------------------------------
+  # Pricing
+  --------------------------------------------------------------*/
+  .pricing .box {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  .pricing h3 {
+    font-weight: 400;
+    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #847872;
+    background: #f8f8f8;
+  }
+  .pricing h4 {
+    font-size: 36px;
+    color: #1bbd36;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+  }
+  .pricing h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  .pricing h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .pricing ul {
+    padding: 0;
+    list-style: none;
+    color: #4d4643;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .pricing ul li {
+    padding-bottom: 16px;
+  }
+  .pricing ul i {
+    color: #1bbd36;
+    font-size: 18px;
+    padding-right: 4px;
+  }
+  .pricing ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+  }
+  .pricing .btn-wrap {
+    margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #f8f8f8;
+    text-align: center;
+  }
+  .pricing .btn-buy {
+    background: #1bbd36;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 4px;
+    color: #fff;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  .pricing .btn-buy:hover {
+    background: #2ae149;
+  }
+  .pricing .featured h3 {
+    color: #fff;
+    background: #1bbd36;
+  }
+  .pricing .advanced {
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #1bbd36;
+    color: #fff;
+  }
+  
   
   
   
