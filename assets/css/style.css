@@ -4,7 +4,7 @@ body {
   }
   
   a {
-    color: #1bbd36;
+    color:orange;
     text-decoration: none;
   }
   
@@ -26,7 +26,7 @@ body {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #1bbd36;
+    background:orange;
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -76,7 +76,7 @@ body {
     color: #111;
   }
   #header .logo a span {
-    color: #1bbd36;
+    color:orange;
   }
   #header .logo img {
     max-height: 40px;
@@ -99,7 +99,7 @@ body {
     line-height: 0;
   }
   .header-social-links a:hover {
-    color: #1bbd36;
+    color:orange;
   }
   @media (max-width: 768px) {
     .header-social-links {
@@ -145,7 +145,7 @@ body {
     margin-left: 5px;
   }
   .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-    color: #1bbd36;
+    color:orange;
   }
   .navbar .dropdown ul {
     display: block;
@@ -160,7 +160,7 @@ body {
     background: #fff;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
-    border-top: 2px solid #1bbd36;
+    border-top: 2px solidorange;
   }
   .navbar .dropdown ul li {
     min-width: 200px;
@@ -176,7 +176,7 @@ body {
     font-size: 12px;
   }
   .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-    color: #1bbd36;
+    color:orange;
   }
   .navbar .dropdown:hover > ul {
     opacity: 1;
@@ -261,7 +261,7 @@ body {
     color: #111;
   }
   .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-    color: #1bbd36;
+    color:orange;
   }
   .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
     margin: 15px;
@@ -287,7 +287,7 @@ body {
     font-size: 12px;
   }
   .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-    color: #1bbd36;
+    color:orange;
   }
   .navbar-mobile .dropdown > .dropdown-active {
     display: block;
@@ -326,7 +326,7 @@ body {
     background: rgba(4, 4, 4, 0.7);
     padding: 20px;
     color: #fff;
-    border-top: 5px solid #1bbd36;
+    border-top: 5px solidorange;
   }
   #hero .carousel-content h2 {
     color: #fff;
@@ -348,10 +348,10 @@ body {
     color: #fff;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
-    border: 2px solid #1bbd36;
+    border: 2px solidorange;
   }
   #hero .btn-get-started:hover {
-    background: #1bbd36;
+    background:orange;
     color: #fff;
     text-decoration: none;
   }
@@ -410,7 +410,7 @@ body {
   }
   #hero .carousel-indicators li.active {
     opacity: 1;
-    background: #1bbd36;
+    background:orange;
   }
   @media (min-width: 1024px) {
     #hero .carousel-content {
@@ -467,7 +467,7 @@ section {
     display: block;
     width: 50px;
     height: 3px;
-    background: #1bbd36;
+    background:orange;
     bottom: 0;
     left: calc(50% - 25px);
   }
@@ -479,7 +479,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
     padding: 15px 0;
-    background: #1bbd36;
+    background:orange;
     min-height: 40px;
     margin-top: 72px;
   }
@@ -650,7 +650,7 @@ section {
   }
   .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
     color: #fff;
-    background: #1bbd36;
+    background:orange;
   }
   .portfolio #portfolio-flters li:last-child {
     margin-right: 0;
@@ -688,7 +688,7 @@ section {
     color: #2b2b2b;
   }
   .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-    color: #1bbd36;
+    color:orange;
   }
   .portfolio .portfolio-item .portfolio-info .details-link {
     right: 10px;
@@ -734,10 +734,10 @@ section {
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #1bbd36;
+    border: 1px solidorange;
   }
   .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #1bbd36;
+    background-color:orange;
   }
   .portfolio-details .portfolio-info {
     padding: 30px;
@@ -824,7 +824,7 @@ section {
     top: 7px;
     position: absolute;
     font-size: 20px;
-    color: #1bbd36;
+    color:orange;
   }
   .about-us .content p:last-child {
     margin-bottom: 0;
@@ -870,7 +870,7 @@ section {
     line-height: 0;
   }
   .team .member .social a:hover {
-    color: #1bbd36;
+    color:orange;
   }
   .team .member .social i {
     font-size: 18px;
@@ -929,7 +929,7 @@ section {
     width: 1px;
     height: 10px;
     transition: 0.9s;
-    background-color: #1bbd36;
+    background-color:orange;
   }
   
   /*--------------------------------------------------------------
@@ -960,7 +960,7 @@ section {
     transition: ease-in-out 0.3s;
   }
   .features .icon-box h3 a:hover {
-    color: #1bbd36;
+    color:orange;
   }
   
   /*--------------------------------------------------------------
@@ -986,7 +986,7 @@ section {
   }
   .pricing h4 {
     font-size: 36px;
-    color: #1bbd36;
+    color:orange;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     margin-bottom: 20px;
@@ -1013,7 +1013,7 @@ section {
     padding-bottom: 16px;
   }
   .pricing ul i {
-    color: #1bbd36;
+    color:orange;
     font-size: 18px;
     padding-right: 4px;
   }
@@ -1028,7 +1028,7 @@ section {
     text-align: center;
   }
   .pricing .btn-buy {
-    background: #1bbd36;
+    background:orange;
     display: inline-block;
     padding: 8px 35px 10px 35px;
     border-radius: 4px;
@@ -1045,7 +1045,7 @@ section {
   }
   .pricing .featured h3 {
     color: #fff;
-    background: #1bbd36;
+    background:orange;
   }
   .pricing .advanced {
     width: 200px;
@@ -1056,7 +1056,7 @@ section {
     z-index: 1;
     font-size: 14px;
     padding: 1px 0 3px 0;
-    background: #1bbd36;
+    background:orange;
     color: #fff;
   }
 /*--------------------------------------------------------------
@@ -1114,7 +1114,7 @@ section {
     transition: 0.3s;
   }
   .faq .faq-list a.collapsed:hover {
-    color: #1bbd36;
+    color:orange;
   }
   .faq .faq-list a.collapsed .icon-show {
     display: inline-block;
