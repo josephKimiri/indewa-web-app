@@ -720,7 +720,7 @@ body {
     transition: 0.3s;
   }
   .portfolio .portfolio-item .portfolio-links a:hover {
-    color: #57e76f;
+    color: orange;
   }
   .portfolio .portfolio-item:hover .portfolio-info {
     opacity: 1;
@@ -1568,7 +1568,7 @@ body {
   }
   .blog .blog-comments .reply-form input:focus {
     box-shadow: none;
-    border-color: #57e76f;
+    border-color: orange;
   }
   .blog .blog-comments .reply-form textarea {
     border-radius: 4px;
@@ -1577,7 +1577,7 @@ body {
   }
   .blog .blog-comments .reply-form textarea:focus {
     box-shadow: none;
-    border-color: #57e76f;
+    border-color: orange;
   }
   .blog .blog-comments .reply-form .form-group {
     margin-bottom: 25px;
