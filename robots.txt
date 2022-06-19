@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /assets
+allow: /index.html
+allow: /contact.html
+allow: /pricing.html
+allow: /about.html
+allow: /testimonials.html
+allow: /services.html
+
